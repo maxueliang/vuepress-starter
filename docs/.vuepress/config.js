@@ -1,4 +1,5 @@
 module.exports = {
+    base:"/vuepress-starter/",
     title: "世界不浪漫",
     description: "世界不浪漫的笔记",
     head: [
