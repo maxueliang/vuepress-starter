@@ -1,3 +1,4 @@
+const secret = require("./secret")
 module.exports = 
     {
         '@vssue/vuepress-plugin-vssue': {
@@ -7,8 +8,8 @@ module.exports =
           // all other options of Vssue are allowed
           owner: 'maxueliang',
           repo: 'vuepress-starter',
-          clientId: '523c59b2473ad1b572c6',
-          clientSecret: '9cf0688293e423bed554c9ec9409c36c51876dd0',
+          clientId: secret.clientId,
+          clientSecret: secret.clientSecret,
           autoCreateIssue: true
         },
         '@vuepress/back-to-top': true
