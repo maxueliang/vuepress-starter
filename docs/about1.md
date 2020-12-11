@@ -1,5 +1,6 @@
 ---
 title : 快乐一天
+sidebar: false
 ---
 热爱生活  ，喜欢睡觉
 

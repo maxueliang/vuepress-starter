@@ -1,5 +1,6 @@
 ---
 title : 个人简介
+sidebar: false
 ---
 
 热爱生活  ，喜欢睡觉
